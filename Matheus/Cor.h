@@ -5,7 +5,7 @@ class RGB {
     };
 
     struct Paleta {
-        int quantCores;
+        int* quantidade;
         RGB cores[100];
         int limites[100];
     };
