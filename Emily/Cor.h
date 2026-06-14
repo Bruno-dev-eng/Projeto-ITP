@@ -4,19 +4,14 @@
 #include <string>
 
 class Cor {
+public:
     int r;
     int g;
     int b;
 
-
-public:
-    Cor(); //construtor padrao (preto)
-    Cor(int vermelho, int verde, int azul); //construtor RGB
-    Cor(const std::string& hex); //construtor hex
-
-    int getR() const;
-    int getG() const;
-    int getB() const;
+    Cor(); // construtor padrão (preto)
+    Cor(int vermelho, int verde, int azul); // construtor RGB
+    Cor(const std::string& hex); // construtor hexadecimal
 };
 
 #endif
