@@ -20,7 +20,7 @@ Paleta::Paleta(const std::string& nomeArquivo) {
 }
 
 void Paleta::adicionarCor(const Cor& cor) {
-    cores.push_back(cor); // adiciona a cor ao final do vetor, ocupando o próximo índice disponível
+    cores.push_back(cor); // adiciona a cor ao final do vetor
 }
 
 int Paleta::obterTamanho() const {
