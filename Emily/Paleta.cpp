@@ -5,7 +5,7 @@ Paleta::Paleta() {
 }
 
 Paleta::Paleta(const std::string& nomeArquivo) {
-    std::ifstream arquivo(nomeArquivo);
+    std::ifstream arquivo(nomeArquivo); //input file stream
 
     // caso o arquivo não exista, a paleta permanece vazia
     if (!arquivo.is_open()) {
