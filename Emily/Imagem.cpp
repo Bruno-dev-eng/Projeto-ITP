@@ -1,6 +1,8 @@
 #include "Imagem.h"
 #include <fstream>
 
+// reutilizar o delete para facilitar em caso de mudança
+
 Imagem::Imagem(int largura, int altura) {
 
     // Armazena as dimensões recebidas.
