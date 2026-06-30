@@ -7,15 +7,15 @@
 
 class Paleta {
 private:
-    std::vector<Cor> cores; // conjunto dinâmico de cores da paleta (índices 0, 1, 2...)
+    std::vector<Cor> cores;
 
 public:
-    Paleta(); // construtor padrão (paleta vazia)
-    Paleta(const std::string& nomeArquivo); // construtor que carrega as cores de um arquivo
+    Paleta();
+    Paleta(const std::string& nomeArquivo);
 
-    void adicionarCor(const Cor& cor); // adiciona uma cor ao final da paleta
-    int obterTamanho() const; // retorna a quantidade de cores da paleta
-    Cor obterCor(int indice) const; // retorna a cor associada ao índice informado
+    void adicionarCor(const Cor& cor);
+    int obterTamanho() const;
+    Cor obterCor(int indice) const;
 };
 
 #endif
