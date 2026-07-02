@@ -8,6 +8,7 @@
 class Paleta {
 public:
     std::vector<Cor> cores; // conjunto dinâmico de cores da paleta (índices 0, 1, 2...)
+
     Paleta(); // construtor padrão (paleta vazia)
     Paleta(const std::string& nomeArquivo); // construtor que carrega as cores de um arquivo
 

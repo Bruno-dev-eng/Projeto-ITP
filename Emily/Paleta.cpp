@@ -5,7 +5,7 @@ Paleta::Paleta() {
 }
 
 Paleta::Paleta(const std::string& nomeArquivo) {
-    std::ifstream arquivo(nomeArquivo); //input file stream
+    std::ifstream arquivo(nomeArquivo);
 
     // caso o arquivo não exista, a paleta permanece vazia
     if (!arquivo.is_open()) {
@@ -20,7 +20,7 @@ Paleta::Paleta(const std::string& nomeArquivo) {
 }
 
 void Paleta::adicionarCor(const Cor& cor) {
-    cores.push_back(cor); // adiciona a cor ao final do vetor
+    cores.push_back(cor); // adiciona a cor ao final do vetor, ocupando o próximo índice disponível
 }
 
 int Paleta::obterTamanho() const {
