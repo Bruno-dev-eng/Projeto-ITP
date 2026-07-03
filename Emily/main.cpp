@@ -65,7 +65,7 @@ void gerarTerrenoColorido(int n, double rugosidade, const std::string& nomeArqui
             // Converte a altitude atual para uma escala entre 0.0 (ponto mais baixo) e 1.0 (ponto mais alto).
             double normalizado = (terreno.altitudes[i][j] - altMin) / delta;
             
-            // --- 6.1 SELEÇÃO DA COR BASE ---
+            // --- SELEÇÃO DA COR BASE ---
             // Mapeia o valor [0.0, 1.0] para um índice inteiro válido na paleta de cores.
             int indiceCor = static_cast<int>(normalizado * (totalCores - 1));
             // Exemplo prático: Se 'totalCores' for 10, os índices vão de 0 a 9.
