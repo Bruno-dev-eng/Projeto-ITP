@@ -144,7 +144,7 @@ int main() {
     gerarTerrenoColorido(10, 75.0, "teste_mapa.ppm");
     
     std::cout << "Sucesso! Arquivo 'teste_mapa.ppm' gerado" << std::endl;
-    return 0; // Finaliza o programa com sucesso.
+    return 0;  
 }
 
 //g++ main.cpp Terreno.cpp Imagem.cpp Paleta.cpp Cor.cpp -o gerador_terreno && ./gerador_terreno
