@@ -48,7 +48,7 @@ void gerarTerrenoColorido(int n, double rugosidade, const std::string& nomeArqui
     // Vetor de direção da luz (lux, luy, luz). Valores negativos apontam para o canto superior esquerdo (Noroeste).
     double lux = -1.0; 
     double luy = -1.0;
-    double luz = 0.4; // Componente Z: quanto menor, mais inclinado/baixo está o sol, gerando sombras mais longas e dramáticas.
+    double luz = 0.4; // Componente Z: quanto menor, mais inclinado/baixo está o sol, gerando sombras mais longas
     
     // Normalização do vetor de luz: Transforma o vetor em um vetor unitário (comprimento igual a 1),
     // garantindo que os cálculos de produto escalar subsequentes funcionem corretamente.
